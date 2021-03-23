@@ -10,7 +10,7 @@
 }
 
 body{
-  background: url(../img/Index.jpg);
+/*   background: url(../img/Index.jpg);*/
   background-position: bottom center;
   height: 1080px;
 }
@@ -21,21 +21,47 @@ header{
   height: 83px;
   background: rgba(4, 248, 4, 0.5);  
 }
+
+#logo{
+  position: absolute;
+  width: 187px;
+  height: 44px;
+  top: 18px;
+  left: 16px;
+  background:rgba(200, 200, 200, 0.7);
+}
 /*==========================================================
     2. Nav
 ===========================================================*/
 nav{
-  height: 44px;
+  height: 45px;
   border-bottom: 1px solid white;
   background:rgba(206, 9, 9, 0.5);
+}
+
+nav ul {
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  background: rgba(200, 200, 200, 0.7);
+}
+
+nav ul li{
+  float: left;
+  width: 124px;
+  height: 45px;
+  border-right: 1px solid white;
+  background-color: rgba(0,0,255,.5);
+  text-align: center;
+  line-height: 45px;
+  color: white;
 }
 
 /*==========================================================
     3. Slide
 ===========================================================*/
 #slide{
-  height: 301px;
-  background: rgba(4, 248, 4, 0.5);   
+  height: 301px;  
 }
 /*==========================================================
     4. Slide Options
@@ -44,12 +70,28 @@ nav{
   height: 25px;
   background:rgba(206, 9, 9, 0.5);
 }
+
+#slideOptions ul{
+  width: 100px;
+  height: 26px;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+
+#slideOptions ul li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(206, 9, 9, 0.5);
+  border: 3px solid white;
+  margin: 3px 2px;
+}
 /*==========================================================
     5. Changing
 ===========================================================*/
 #changing{
   height: 300px;
-  background: rgba(4, 248, 4, 0.8); 
+  background:white; 
 }
 /*==========================================================
     6. Bottom
@@ -58,6 +100,100 @@ nav{
   height: 190px;
   background: rgba(206, 9, 9, 0.5);
 }
+
+#bottom ul li{
+  float: left;
+  height: 190px;
+  width: 250px;
+}
+
+#bottom ul li h1{
+  margin: 16px 16px;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+#bottom ul li ol{
+  position: relative;
+  top: 13px;
+  right: 16px;
+  width: 190px;
+  height: 80px;
+  }
+
+#bottom ul li ol li{
+  height: 20px;
+  text-align: left;
+  list-style: inside;
+  font-size: 15px;
+  color: white;
+  list-style-image: url(../img/list.png);
+}
+
+#bottom ul li img{
+  top: 15px;
+  left: 15px;
+  width: 95px;
+  height: 95px;
+  border: 4px solid white;
+  background: gray;
+  background-size: cover;
+}
+
+#bottom ul li ul{
+  position: relative;
+  right: 11px;
+  top: 6px;
+  width: 200px;
+  height: 52px;
+  background: rgba(0,0,0,.5);
+}
+
+#bottom ul li ul  li{
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: white;
+  margin: 5px;
+}
+
+#bottom ul li ul  li:first-child {
+  background:url(../img/facebook.jpg);
+  background-size: cover;
+}
+#bottom ul li ul  li:nth-child(2){
+  background: url(../img/iconoGoogle.jpg);
+  background-size: cover;
+}
+
+#bottom ul li ul  li:nth-child(2){
+  background: url(../img/iconoGoogle.jpg);
+  background-size: cover;
+}
+
+#bottom ul li ul  li:nth-child(2){
+  background: url(../img/iconoGoogle.jpg);
+  background-size: cover;
+}
+
+#bottom ul li ul  li:nth-child(3){
+  background: url(../img/iconoPinterest.jpg);
+  background-size: cover;
+}
+
+#bottom ul li ul li:last-child{
+  background: url(../img/iconoTwitter.jpg);
+  background-size: cover;
+}
+
+#bottom ul li ul li a{
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
 /*==========================================================
     7. Footer
 ===========================================================*/
